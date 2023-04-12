@@ -1,0 +1,376 @@
+body{
+    margin: 0px; 
+}
+.title{
+   margin: auto;
+   width: 75%;
+}
+.logo{
+   width: 240px;
+}
+.head{
+   border-bottom: solid 1px #e9dfcf;
+}
+.products {
+   position: relative;
+   overflow: hidden;
+   font-family: system-ui;
+   font-size: 14px;
+   margin-right: -32px;
+   float: right;
+   margin-top: 32px;
+}
+.products ul {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-left: -1px;
+}
+.products li {
+   flex-grow: 1;
+   flex-basis: auto;
+   margin: .25em 0;
+   padding-left: 16px;
+   padding-right: 16px;
+   text-align: center;
+   background-color: #fff;
+}
+.products li::after{
+   content: "|";
+   padding-left: 20px;
+}
+.products li:last-child::after{
+   content: " "; 
+
+}
+.products ul  {
+   display: flex;
+   color: rgb(120 118 118);
+}
+.products ul  li{ 
+   list-style-type: none;
+}
+.NavbarTop {
+  background-color: #d7d5d6;
+  width: 100%;
+  border-top: double  white;
+  border-bottom: double  white;
+  overflow: hidden;
+  font-family: system-ui;
+  font-size: 15px;
+  height: 42px;
+}
+.NavbarTop ul{
+   display: flex;
+   color: black;
+   margin: auto;
+   width: 75%;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   padding-inline-start: 0px;
+   height: 100%;
+}
+.NavbarTop ul li{
+   list-style-type: none;
+   display: flex;
+   flex-grow: 1;
+   align-items: center;
+   justify-content: center;
+   border-right: 1px solid white;
+   height: 100%;
+}
+.NavbarTop ul li a{
+   text-decoration: none;
+   color:#524c47;
+}
+.NavbarTop ul li:first-child{
+   padding-left: 0px;
+}
+.NavbarTop ul li:last-child{
+   border-right: none;
+}
+.dining{
+   margin-left: -30px;
+}
+.search{
+   padding-left: 45px;
+}
+.navbar2 div span a{
+   text-decoration: none;
+   color: black;
+   padding-right: 28px;
+}
+ul.a{
+   color: darkgrey;
+}
+.offer{
+   font-family: sans-serif;
+   font-size: 15px;
+}
+.offer ul li:first-child{
+   list-style: none; 
+}
+.navbarSecond{
+   margin: auto;
+   width: 75%;
+   display: flex;
+}
+.navbarSecond a{
+   text-decoration: none;
+   color: grey;
+   padding: 10px;
+   padding-top: 18px;
+   font-family: sans-serif;
+   font-size: 15px;
+}
+.header1{
+   display: flex;
+   padding-top: 4px;
+}
+.offer ul li a:hover  {
+   text-decoration: underline;
+}
+.offer ul li{
+   padding-right: 20px;
+   height: 0px;
+}
+.Links a:hover{
+   text-decoration: underline;
+   cursor: pointer;
+}
+.offer ul{
+   list-style-type: circle;
+   display: flex;
+   padding-left: 0px;
+}
+.header2{
+   display: flex;
+}
+.header2 a:hover{
+   text-decoration: underline;
+}
+.header2 a:first-child{
+   margin-left: 540px; 
+   padding: 0px;
+}
+.header2 a img{
+   position: inherit; 
+   padding-top: 2px;
+   height: 48px;
+}
+.bag-img{
+   background-image: url('Mikasa/background.png');
+}
+.mainContent{
+   margin: auto;
+   width: 75%;
+}
+.centerimg{
+   background-color: white;
+  display: flex;
+   padding-bottom: 2px
+}
+figure{
+   margin-inline: 8px;
+   margin-block-end: 1px;
+   margin-block-start: 7px
+}
+figure img{
+   height: 590px;
+}
+.center2  {
+   background-color: #403e3f;
+   color: white;
+   float: right;
+   width: 500px;
+   height: 590px;
+   margin-top: 7px;
+   border-right: 7px solid white;
+}
+.Incenter2{
+   margin: 10px;
+   padding: 40px;
+   border: 2px solid grey;
+   padding-top: 8px;
+   height: 520px;
+   font-family: sans-serif;
+}
+.Incenter2 p{
+   color: #a6a4a1;
+   font-size: 16px;
+   line-height: 1.7;
+   
+}
+.Incenter2 ul{
+   list-style-type: none;
+   padding-inline-start: 0px;
+   padding-top: 6px;
+}
+.Incenter2 ul li{
+   border-bottom: 1px solid #534e46;
+   padding-top: 10px;
+   padding-bottom: 4px;
+   font-size: large;
+   font-family: system-ui;
+}
+.Incenter2 ul li:last-child{
+   border-bottom: none;
+}
+.Incenter2 h2{
+   font-weight: 100;
+   font-size: 30px; 
+   padding-top: 28px;
+   font-family: system-ui;
+}
+.yourTable{
+   margin-top: 52px;
+   font-size: 13px;
+}
+.yourTable a{
+   color: #a6a4a1;
+}
+.lastItem{
+   border-bottom: none;
+}
+.bottom{
+   margin: auto;
+   background-color: #312e28;
+   display: flex;
+   padding: 7px;
+   padding-top: 6px;
+   height: 230px;
+   
+}
+.inBottom{
+   display: flex;
+   width: 100%;
+   background: white;
+   align-items: center;
+}
+.left{
+   background-image: url('Mikasa/promo_glass.png');
+   background-repeat: no-repeat;
+   height: 187px;
+   background-size: 370px;
+   width: 33.33%;
+   border-right: 1px solid #ebe1d1;
+   padding: 20px;
+   font-weight: normal;
+   color: grey;
+   background-color: white;
+   font-family: sans-serif;
+}
+.left pre{
+   margin-left: 220px
+}
+.middle{
+   background-image: url('Mikasa/promo_plates.png');
+   background-repeat: no-repeat;
+   background-position: bottom;
+   height: 187px;
+   width: 33.33%;
+   border-right: 1px solid #ebe1d1;
+   padding: 20px;
+   font-weight: normal;
+   color: grey;
+   background-color: white;
+   font-family: sans-serif;
+   
+}
+.middle pre{
+   margin-left: 210px
+}
+.right{
+   background-image: url('Mikasa/promo_album.png');
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: 272px;
+   height: 187px;
+   width: 33.33%;
+   border-right: 1px solid #ebe1d1;
+   padding: 20px;
+   font-weight: normal;
+   color: grey;
+   background-color: white;
+   font-family: sans-serif;
+}
+.bottom p{
+    text-align: left;
+    font-size: 14px;
+}
+
+pre{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(103, 103, 182);
+ }
+
+.footer {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding-top: 0px;
+    font-family: system-ui;
+}
+
+.footer-ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 61%;
+    padding: 0px;
+}
+
+.footer-list-items a {
+    color: #9f9d9d;
+    padding: auto;
+}
+
+.footer-list-items:not(:last-child)::after {
+    content: "|";
+    color: #808080;
+    margin-left: 12px;
+}
+
+.para-footer {
+    color: #938d8d;
+    margin: auto;
+}
+
+.para-footer a {
+    color: #938d8d;
+}
+
+.copyright {
+    color: #938d8d;
+    margin-top: 8px;
+}
+
+.sign-up {
+    color: #938d8d;
+}
+
+.footer-email {
+    color: #938d8d;
+    margin-top: 12px;
+}
+
+.email-box {
+    width: 298px;
+    height: 26px;
+    box-shadow: 1px 1px 3px #000000 inset;
+    border-width: 0px;
+}
+
+.btn-sign {
+    width: 77px;
+    height: 22px;
+    border-width: 0;
+    border-radius: 4px;
+    margin-left: 6px;
+}
