@@ -1,3 +1,7 @@
+@media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  }
 body{
     margin: 0px; 
 }
@@ -8,29 +12,22 @@ body{
 .logo{
    width: 240px;
 }
-.head{
+.header{
    border-bottom: solid 1px #e9dfcf;
 }
 .products {
    position: relative;
-   overflow: hidden;
    font-family: system-ui;
    font-size: 14px;
-   margin-right: -32px;
+   margin-right: -18px;
    float: right;
    margin-top: 32px;
 }
 .products ul {
    display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
    justify-content: space-between;
-   margin-left: -1px;
 }
 .products li {
-   flex-grow: 1;
-   flex-basis: auto;
-   margin: .25em 0;
    padding-left: 16px;
    padding-right: 16px;
    text-align: center;
@@ -50,6 +47,7 @@ body{
 }
 .products ul  li{ 
    list-style-type: none;
+   padding-right: 0px
 }
 .NavbarTop {
   background-color: #d7d5d6;
@@ -66,8 +64,6 @@ body{
    color: black;
    margin: auto;
    width: 75%;
-   flex-direction: row;
-   flex-wrap: wrap;
    justify-content: space-between;
    align-items: center;
    padding-inline-start: 0px;
@@ -92,12 +88,22 @@ body{
 .NavbarTop ul li:last-child{
    border-right: none;
 }
-.dining{
+.NavBarTop-l1{
    margin-left: -30px;
 }
 .search{
    padding-left: 45px;
 }
+
+.search button {
+    border-radius: 5px;
+}
+#search-box {
+    border-top: inset;
+    border-bottom: none;
+    border-right: none;
+}
+
 .navbar2 div span a{
    text-decoration: none;
    color: black;
@@ -106,11 +112,11 @@ body{
 ul.a{
    color: darkgrey;
 }
-.offer{
+.header1-div1{
    font-family: sans-serif;
    font-size: 15px;
 }
-.offer ul li:first-child{
+.header1-div1 ul li:first-child{
    list-style: none; 
 }
 .navbarSecond{
@@ -120,7 +126,8 @@ ul.a{
 }
 .navbarSecond a{
    text-decoration: none;
-   color: grey;
+   color: #3C4D79;
+   word-spacing: 2px;
    padding: 10px;
    padding-top: 18px;
    font-family: sans-serif;
@@ -130,10 +137,10 @@ ul.a{
    display: flex;
    padding-top: 4px;
 }
-.offer ul li a:hover  {
+.header1-div1 ul li a:hover  {
    text-decoration: underline;
 }
-.offer ul li{
+.header1-div1 ul li{
    padding-right: 20px;
    height: 0px;
 }
@@ -141,7 +148,7 @@ ul.a{
    text-decoration: underline;
    cursor: pointer;
 }
-.offer ul{
+.header1-div1 ul{
    list-style-type: circle;
    display: flex;
    padding-left: 0px;
@@ -153,7 +160,7 @@ ul.a{
    text-decoration: underline;
 }
 .header2 a:first-child{
-   margin-left: 540px; 
+   margin-left: 560px;
    padding: 0px;
 }
 .header2 a img{
@@ -161,14 +168,14 @@ ul.a{
    padding-top: 2px;
    height: 48px;
 }
-.bag-img{
+.BgImg{
    background-image: url('Mikasa/background.png');
 }
-.mainContent{
+.bodyImg{
    margin: auto;
    width: 75%;
 }
-.centerimg{
+.centerImg{
    background-color: white;
   display: flex;
    padding-bottom: 2px
@@ -181,7 +188,7 @@ figure{
 figure img{
    height: 590px;
 }
-.center2  {
+.section  {
    background-color: #403e3f;
    color: white;
    float: right;
@@ -190,7 +197,7 @@ figure img{
    margin-top: 7px;
    border-right: 7px solid white;
 }
-.Incenter2{
+.sectionIn{
    margin: 10px;
    padding: 40px;
    border: 2px solid grey;
@@ -198,92 +205,101 @@ figure img{
    height: 520px;
    font-family: sans-serif;
 }
-.Incenter2 p{
+.sectionIn p{
    color: #a6a4a1;
-   font-size: 16px;
+   font-size: 18px;
    line-height: 1.7;
-   
+   padding-left: 12px;
+   word-spacing: 2px;   
 }
-.Incenter2 ul{
+.sectionIn ul{
    list-style-type: none;
    padding-inline-start: 0px;
    padding-top: 6px;
+   padding-left: 0px;
+   margin-block-end: 0px;
 }
-.Incenter2 ul li{
+.sectionIn ul li{
    border-bottom: 1px solid #534e46;
    padding-top: 10px;
    padding-bottom: 4px;
    font-size: large;
    font-family: system-ui;
+   padding-left: 16px;
 }
-.Incenter2 ul li:last-child{
+.sectionIn ul li:last-child{
    border-bottom: none;
 }
-.Incenter2 h2{
+.sectionIn h2{
    font-weight: 100;
-   font-size: 30px; 
-   padding-top: 28px;
+   font-size: 39px; 
+   padding-top: 0px;
+   padding-left: 6px;
    font-family: system-ui;
 }
-.yourTable{
-   margin-top: 52px;
+.sectionIn-link{
+   margin-top: 22px;
    font-size: 13px;
+   padding-left: 15px;
 }
-.yourTable a{
+.sectionIn-link a{
    color: #a6a4a1;
 }
-.lastItem{
+.sectionIn li:last-child{
    border-bottom: none;
 }
-.bottom{
+.box{
    margin: auto;
    background-color: #312e28;
    display: flex;
-   padding: 7px;
-   padding-top: 6px;
+   border: 10px solid black;
    height: 230px;
    
 }
-.inBottom{
+.glass{
    display: flex;
    width: 100%;
-   background: white;
+   padding-bottom: 91px;
+   border-right: 1px solid #5f5e5d ;
    align-items: center;
 }
-.left{
+.box1-out{
    background-image: url('Mikasa/promo_glass.png');
    background-repeat: no-repeat;
    height: 187px;
    background-size: 370px;
    width: 33.33%;
-   border-right: 1px solid #ebe1d1;
    padding: 20px;
    font-weight: normal;
    color: grey;
    background-color: white;
-   font-family: sans-serif;
+   font-family: system-ui;
 }
-.left pre{
+.glass-sub1 pre{
    margin-left: 220px
 }
-.middle{
+.box2-out{
    background-image: url('Mikasa/promo_plates.png');
    background-repeat: no-repeat;
    background-position: bottom;
    height: 187px;
    width: 33.33%;
-   border-right: 1px solid #ebe1d1;
    padding: 20px;
    font-weight: normal;
    color: grey;
    background-color: white;
-   font-family: sans-serif;
-   
+   font-family: system-ui;
 }
-.middle pre{
+
+.plate {
+    border-right: 1px solid #5f5e5d;
+    padding-bottom: 91px;
+}
+
+.plate pre{
    margin-left: 210px
 }
-.right{
+.album{
    background-image: url('Mikasa/promo_album.png');
    background-repeat: no-repeat;
    background-position: right;
@@ -295,30 +311,35 @@ figure img{
    font-weight: normal;
    color: grey;
    background-color: white;
-   font-family: sans-serif;
+   font-family: system-ui;
 }
-.bottom p{
+.box p{
     text-align: left;
     font-size: 14px;
 }
 
 pre{
-    font-family: sans-serif;
+    font-family: system-ui;
+    text-decoration: none;
     font-size: 14px;
     color: rgb(103, 103, 182);
+ }
+
+ pre a {
+     text-decoration: none;
  }
 
 .footer {
     font-size: 16px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 75%;
     margin: auto;
     padding-top: 0px;
     font-family: system-ui;
 }
 
-.footer-ul {
+.footerLeft-top {
     display: flex;
     list-style: none;
     justify-content: space-between;
@@ -326,36 +347,36 @@ pre{
     padding: 0px;
 }
 
-.footer-list-items a {
+.footerLeft-top-li a {
     color: #9f9d9d;
     padding: auto;
 }
 
-.footer-list-items:not(:last-child)::after {
+.footerLeft-top-li:not(:last-child)::after {
     content: "|";
     color: #808080;
     margin-left: 12px;
 }
 
-.para-footer {
+.footerCenter {
     color: #938d8d;
     margin: auto;
 }
 
-.para-footer a {
+.footerCenter a {
     color: #938d8d;
 }
 
-.copyright {
+.footerCenter-para {
     color: #938d8d;
     margin-top: 8px;
 }
 
-.sign-up {
+.footerRight-sign-up {
     color: #938d8d;
 }
 
-.footer-email {
+.footerRight-email {
     color: #938d8d;
     margin-top: 12px;
 }
@@ -365,12 +386,18 @@ pre{
     height: 26px;
     box-shadow: 1px 1px 3px #000000 inset;
     border-width: 0px;
+    padding-left: 8px;
 }
 
-.btn-sign {
+.btn-Sign-Up {
     width: 77px;
     height: 22px;
     border-width: 0;
     border-radius: 4px;
     margin-left: 6px;
+}
+
+.highLight {
+    color: #2F2D29;
+    font-size: 20px;
 }
